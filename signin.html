@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signin.css">
+    <title>Театр B4</title>
+</head>
+
+<!--ring div starts here-->
+<div class="container">
+  <div class="container_signup" id="container_signup">
+    <div class="ring">
+      <i style="--clr:#00ff0a;"></i>
+      <i style="--clr:#ff0057;"></i>
+      <i style="--clr:#fffd44;"></i>
+      <div class="login">
+        <h2>Купить билеты на выставку</h2>
+        <div class="inputBx">
+          <input type="text" placeholder="Email">
+        </div>
+        <div class="inputBx">
+          <input type="password" placeholder="Пароль">
+        </div>
+        <div class="inputBx">
+          <input type="submit" value="Войти">
+        </div>
+        <div class="links">
+          <script>
+            function hideDiv1() {
+            document.getElementById('container_signin').style.display = 'block';
+            document.getElementById('container_signup').style.display = 'none';
+            }
+          </script>
+          <a href="#">Забыли пароль?</a>
+          <button type="button" value="Click" onmousedown="hideDiv1()">Зарегистрироваться</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container_signin" id="container_signin">
+    <div class="ring">
+      <i style="--clr:#00ff0a;"></i>
+      <i style="--clr:#ff0057;"></i>
+      <i style="--clr:#fffd44;"></i>
+      <div class="login">
+        <h2>Выставка "Театр В4"</h2> 
+        <h2>11-27 октября 2024, ул. Ленина, 43</h2>
+        <div class="links">
+          <script>
+            function hideDiv2() {
+            document.getElementById('container_signin').style.display = 'none';
+            document.getElementById('container_signup').style.display = 'block';
+            }
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--ring div ends here-->
